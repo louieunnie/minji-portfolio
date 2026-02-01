@@ -16,11 +16,11 @@ export default function Industry({ lang }: Props) {
         "Conducted supervised fine-tuning experiments on small language models (SLMs).",
       ],
       tech: [
-        "Python",
         "Information Retrieval",
         "LLM Evaluation",
         "Data Construction",
-        "Model Fine-Tuning",
+        "SLM Supervised Fine-Tuning",
+        "Encoder Fine-Tuning",
       ],
       style: {
         container: "border-lime-300 bg-lime-50",

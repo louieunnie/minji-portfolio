@@ -19,7 +19,7 @@ export default function Header() {
         
         {/* 왼쪽: 이름 */}
         <div
-          className="text-base sm:text-lg font-semibold font-sans tracking-tight cursor-pointer"
+          className="text-xl sm:text-2xl font-semibold font-sans tracking-tight cursor-pointer"
           onClick={() => {
             window.scrollTo({ top: 0, behavior: "smooth" });
             setOpen(false);
@@ -35,7 +35,7 @@ export default function Header() {
         </div>
 
         {/* 데스크탑 메뉴 */}
-        <div className="hidden sm:flex gap-6 text-sm">
+        <div className="hidden sm:flex gap-6 text">
           <a href="#skills" className="hover:underline">SKILLS</a>
           <a href="#research" className="hover:underline">RESEARCH</a>
           <a href="#industry" className="hover:underline">INDUSTRY</a>

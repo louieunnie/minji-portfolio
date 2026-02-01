@@ -2,61 +2,7 @@ type Props = {
   lang: "en" | "ko";
 };
 export default function Skills({ lang }: Props) {
-  // const skillCards = [
-  //   {
-  //     title: "During my Master's study, I mainly studied the following topics.",
-  //     items: [
-  //       "Grounded Multimodal NER",
-  //       "Multimodal Information Extraction",
-  //       "Vision-Language Model Fine-Tuning",
-  //       "Temporal Knowledge Graph Forecasting",
-  //       "KGQA (Knowledge Graph Question Answering)",
-  //       "PyTorch",
-  //       "TensorFlow",
-  //       "Transformers",
-  //       "Hugging Face",
-  //     ],
-  //     style: {
-  //       container: "border-sky-200 bg-sky-50",
-  //       pill: "bg-sky-100 text-sky-900",
-  //     },
-  //   },
-  //   {
-  //     title: "Through projects and internships, I have practically worked on the following.",
-  //     items: [
-  //       "CLI Tool Development with Typer and Github",
-  //       "Data Construction with LLMs",
-  //       "Data Labeling with LLMs",
-  //       "Prompt Engineering",
-  //       "SLM Supervised Fine-Tuning (SFT)", 
-  //       "Small Encoder Fine-Tuning",
-  //       "Data Augmentation",
-  //       "Data Quality Evaluation",
-  //       "Model Evaluation",
-  //       "Profiling and Optimization",
-  //       "Decoy Evaluation in Bioinformatics",
-  //     ],
-  //     style: {
-  //       container: "border-amber-300 bg-amber-50",
-  //       pill: "bg-amber-100 text-amber-950",
-  //   }
-  //   },
-  //   {
-  //     title: "I have a solid foundation in general Software Engineering skills.",
-  //     items: [
-  //       "Python",
-  //       "SQL",
-  //       "C++",
-  //       "Node.js",
-  //       "AWS",
-  //       "GitHub Actions",
-  //     ],
-  //     style: {
-  //       container: "border-gray-200 bg-gray-50",
-  //       pill: "bg-gray-100 text-gray-900",
-  //     },
-  //   },
-  // ];
+
     const skillCards = [
     {
       title: "AI Research & Multimodal Systems",

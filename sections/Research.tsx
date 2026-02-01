@@ -7,16 +7,17 @@ export default function Research({ lang }: Props) {
     { 
       id: "research-gmner",
       title: "Grounded Multimodal Named Entity Recognition (GMNER)",
-      period: "2025.03 – 2026.02",
+      period: "2025.03 – 2026.02 (Paper Under Review)",
       description: [
-        "Conducted research on GMNER using VLMs and LLMs.",
-        "Designed and evaluated grounded multimodal NER pipelines.",
+        "Proposed an anchor-guided collaborative grounding framework for grounded multimodal NER.",
+        "Addressed ambiguities in visually similar entities by modeling inter-entity relationships and fine-grained entity types.",
+        "Achieved state-of-the-art performance on GMNER benchmarks, outperforming large-scale pretrained vision–language models in grounding precision.",
       ],
-      tech: [
+     tech: [
+        "GMNER",
+        "Multimodal Information Extraction",
         "Vision-Language Model",
-        "Multimodal NER",
-        "Entity Visual Detection",
-        "PyTorch",
+        "Entity Grounding",
       ],
       style: {
         container: "border-blue-200 bg-blue-50",
@@ -28,14 +29,16 @@ export default function Research({ lang }: Props) {
       title: "Knowledge Graph Question Answering (KGQA)",
       period: "2024.03 – 2025.02",
       description: [
-        "Constructed and labeled large-scale LLM training datasets.",
-        "Fine-tuned transformer-based language models for downstream tasks.",
+        "Proposed a novel multi-hop KGQA model that explicitly models question intent.",
+        "Identified relation-specific keyphrases and predicted answer entity types using KG schema information.",
+        "Achieved superior performance on WebQSP and CWQ compared to state-of-the-art models.",
+
       ],
       tech: [
+        "Knowledge Graph",
+        "KGQA",
         "Transformers",
-        "Hugging Face",
-        "LLM Data Construction",
-        "Model Fine-Tuning",
+        "Intent Modeling",
       ],
       style: {
         container: "border-blue-200 bg-blue-50",
@@ -50,7 +53,7 @@ export default function Research({ lang }: Props) {
       description: [
         "Studied a GNN-based decoy evaluation model for protein–peptide docking complex prediction.",
         "Analyzed residue-level interactions to assess docking accuracy and interaction quality.",
-        "Participated in the NRF-funded project “Deep Learning–Based Ultra-Fast Virtual Peptide Screening.”",
+        "Participated in the “Deep Learning–Based Ultra-Fast Virtual Peptide Screening.” funded by the National Research Foundation of Korea",
       ],
       tech: [
         "Graph Neural Network",
