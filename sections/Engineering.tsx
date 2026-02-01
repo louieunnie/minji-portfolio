@@ -2,8 +2,24 @@ type Props = {
   lang: "ko" | "en";
 };
 
+type EngineeringItem = {
+  id: string;
+  title: string;
+  description: string[];
+  tech: string[];
+  style: {
+    container: string;
+    pill: string;
+  };
+  github?: string;
+  award?: string;
+  context?: string;
+  period?: string; // ✅ 핵심
+};
+
+
 export default function Engineering({ lang }: Props) {
-  const engineering = [
+  const engineering: EngineeringItem[] = [
     {
       id: "engineering-portfolio",
       title: "Personal Portfolio Website",
