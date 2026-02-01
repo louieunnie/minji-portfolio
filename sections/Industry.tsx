@@ -12,7 +12,7 @@ export default function Industry({ lang }: Props) {
         "Designed and implemented a CLI tool for test data versioning and archiving to support large-scale evaluation workflows.",
         "Constructed IR test datasets using rerankers and LLM-as-a-Judge evaluation frameworks.",
         "Designed a local-domain query detection pipeline, including data construction, taxonomy definition, and LLM-based labeling.",
-        "Trained and evaluated encoder-based models, achieving 93.5% accuracy and 260 QPS.",
+        "Trained and evaluated encoder-based models, achieving 93.8% accuracy and 260 QPS.",
         "Conducted supervised fine-tuning experiments on small language models (SLMs).",
       ],
       tech: [
