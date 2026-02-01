@@ -1,7 +1,7 @@
 type Props = {
   lang: "en" | "ko";
 };
-export default function Skills() {
+export default function Skills({ lang }: Props) {
   // const skillCards = [
   //   {
   //     title: "During my Master's study, I mainly studied the following topics.",

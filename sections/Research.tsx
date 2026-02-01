@@ -2,7 +2,7 @@ type Props = {
   lang: "ko" | "en";
 };
 
-export default function Research() {
+export default function Research({ lang }: Props) {
   const research = [
     { 
       id: "research-gmner",
